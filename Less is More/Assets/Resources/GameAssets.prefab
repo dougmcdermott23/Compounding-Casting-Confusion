@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2315056332212277475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6059812689226570225}
+  - component: {fileID: 9196344794752545477}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6059812689226570225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315056332212277475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9196344794752545477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315056332212277475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633b140cefbadd04f8d2c6bde5120048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 6581432931663621077, guid: 1d3c7321366f97641868680ad8ef3c06,
+    type: 3}
+  projectilePrefab: {fileID: 3576539387858977076, guid: c5865a3f5784633498952f90f051fb44,
+    type: 3}
+  bombPrefab: {fileID: 5324425804993571412, guid: cb8e93d29e45f174c8a37135e0ef368b,
+    type: 3}
+  areaOfEffectPrefab: {fileID: 8928075199021526489, guid: d4eb7917afbdd3e4c896559b3c73559d,
+    type: 3}
+  enemyPrefab: {fileID: 7446674728354686032, guid: 9786b7eac6afb2747990903c11af7fd0,
+    type: 3}
+  aoeSpritePrefab: {fileID: 8623934127983338505, guid: 39da33ebc52c04e4997db112f0b816b4,
+    type: 3}
+  deathParticlesPrefab: {fileID: 2294127617400397101, guid: 85e36e7d6dd1a864b9600441eb808bc5,
+    type: 3}
+  enemyHitSprite: {fileID: -2401477551098304907, guid: 38c71c6af8a1d4942bd604d9f014ab5f,
+    type: 3}
+  enemyTypeArray:
+  - spellType: 0
+    sprite: {fileID: 2770953638190813099, guid: 38c71c6af8a1d4942bd604d9f014ab5f,
+      type: 3}
+  - spellType: 1
+    sprite: {fileID: -3984302134950445051, guid: 38c71c6af8a1d4942bd604d9f014ab5f,
+      type: 3}
+  - spellType: 2
+    sprite: {fileID: 3448806923660647499, guid: 38c71c6af8a1d4942bd604d9f014ab5f,
+      type: 3}
+  spellTypeSpriteArray:
+  - spellType: 0
+    sprite: {fileID: -3587240198678441876, guid: 38c71c6af8a1d4942bd604d9f014ab5f,
+      type: 3}
+  - spellType: 1
+    sprite: {fileID: 885784623090100879, guid: 38c71c6af8a1d4942bd604d9f014ab5f, type: 3}
+  - spellType: 2
+    sprite: {fileID: 45994016457164930, guid: 38c71c6af8a1d4942bd604d9f014ab5f, type: 3}
+  deathTypeMaterialArray:
+  - deathType: 0
+    material: {fileID: 2100000, guid: ef23c98b34fd416438d08d1fbf6b59b9, type: 2}
+  - deathType: 1
+    material: {fileID: 2100000, guid: b336c9dd3d935de4bb185eadb44a54f2, type: 2}
+  - deathType: 2
+    material: {fileID: 2100000, guid: 87327aee719e2014cbd851e7fc0e8be9, type: 2}
+  - deathType: 3
+    material: {fileID: 2100000, guid: 9be321910c0559e408da41886b1dc4bc, type: 2}
+  soundAudioClipArray:
+  - sound: 0
+    audioClip: {fileID: 8300000, guid: 424a847f71bbe794cb367498aef2b59b, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 13c88a599bc6d314792dbf30d1a528d0, type: 3}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 6fef90c644eb5744e999267d116cbea9, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: 941560da947c9ab40a520a5ed3eacc3c, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: 3991a0d14d8f0b94f84b8302e855323a, type: 3}
+  - sound: 5
+    audioClip: {fileID: 8300000, guid: 40ed1363616885d4d89e4af07af74062, type: 3}
+  - sound: 6
+    audioClip: {fileID: 8300000, guid: f8482a8818bf7374aaf098aa3f9f8b02, type: 3}
+  - sound: 7
+    audioClip: {fileID: 8300000, guid: e25adba62e75c7247b1ec26c351a8a28, type: 3}
+  - sound: 8
+    audioClip: {fileID: 8300000, guid: 57f0650b28ad74145b62341263286e1a, type: 3}
+  terrainColliderTransform: {fileID: 2722941656390555671, guid: ba85a17ef971d66478502fd8b024c71d,
+    type: 3}
